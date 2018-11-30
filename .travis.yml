@@ -2,4 +2,4 @@ os: linux
 language: c
 script: make clean test
 install: make dep
-
+sudo: required
